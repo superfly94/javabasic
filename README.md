@@ -2,12 +2,14 @@
 
 
 
-import java.util.Scanner;
-public class objects {
+    import java.util.Scanner;
+
+
+     public class objects {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-int weight;
+		
+        int weight;
 		double rate;
 		
 		
@@ -34,7 +36,7 @@ int weight;
 			else {
 				rate=4.80;
 			}
-System.out.printf("Your cost per 500 miles would be $%.2f",rate);
+                  System.out.printf("Your cost per 500 miles would be $%.2f",rate);
 			
 		
 		}
