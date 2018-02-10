@@ -1,0 +1,82 @@
+import java.util.Scanner;
+
+public class numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	//get import scanner
+			
+		
+		Scanner sc = new Scanner(System.in);
+	    //get user input
+		int Userinput;
+		System.out.println("Please enter your number it has to be 1-10");
+		Userinput=sc.nextInt();
+	if (Userinput==1) {
+		
+		System.out.print(" I");
+		
+	}
+	else if (Userinput==2) {
+		
+		System.out.print(" II");
+		
+	}
+else if (Userinput==3) {
+		
+		System.out.print(" III");
+		
+	}
+	
+else if (Userinput==4) {
+	
+	System.out.print(" IV");
+	
+}
+else if (Userinput==5) {
+	
+	System.out.print(" V");
+	
+}
+	
+	
+	
+else if (Userinput==6) {
+	
+	System.out.print("  VI");
+	
+}
+	
+else if (Userinput==7) {
+	
+	System.out.print("  VII");
+	
+}	
+else if (Userinput==8) {
+	
+	System.out.print("  VII");
+	
+}	
+	
+else if (Userinput==9) {
+	
+	System.out.print(" IX");
+	
+}	
+else if (Userinput==10) {
+	
+	System.out.print(" X");
+	
+}	
+else {
+	System.out.print("Error you need to do a number bewtween 1-10");
+	
+}
+	
+	}
+
+}
+
+
+Keep coding
